@@ -1,0 +1,14 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+#left, #right{
+	margin-top: 20px;
+	float: left;
+}
+.table_qty{
+	text-align: center;
+}
+.metro_select, .all_dealers_link{
+	margin-top: 200px;
+}

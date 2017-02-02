@@ -1,0 +1,4 @@
+#Enable the runtime rewriting engine
+RewriteEngine On
+#               pattern            real URL
+RewriteRule ^metro/([0-9]+).html$ metro.php?id=$1 [NC,L]
